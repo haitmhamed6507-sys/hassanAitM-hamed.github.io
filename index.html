@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV – HASSAN AIT M'HAMED</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- React + ReactDOM + Babel -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+<body>
+<header id="header-section">
+  <div class="header-inner">
+    <div class="header-photo-block">
+      <!-- Remplacez le contenu par <img src="photo.jpg" ...> si vous avez une photo -->
+      <img
+        src="photo.png"
+        alt="Photo de profil"
+        class="profile-avatar"
+        onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex';"
+      />
+      <div>
+        <h1><span></span> <span>HASSAN AIT M'HAMED</span></h1>
+        <p class="header-subtitle">Étudiant</p>
+      </div>
+    </div>
+    <ul class="header-contacts">
+      <li>
+        <strong>Email</strong>
+        <a href=" hassan.aitmhamed2@gmail.com"> hassan.aitmhamed2@gmail.com</a>
+      </li>
+      <li>
+        <strong>LinkedIn</strong>
+        <a href="https://www.linkedin.com/in/hassan-ait-m-hamed/">linkedin.com/hassan ait m'hamed</a>
+      </li>
+      <li>
+        <strong>GitHub</strong>
+        <a href="https://github.com/haitmhamed6507-sys">github.com/haitmhamed6507-sys</a>
+      </li>
+      <li>
+        <strong>Adresse</strong>
+        AIT OUADINAR KALAAT MGOUNA
+      </li>
+    </ul>
+  </div>
+</header>
+
+<main class="container">
+
+  <aside>
+
+    <!-- Compétences techniques avec barres -->
+    <article id="competences">
+      <h2>Compétences</h2>
+      <div id="skills-content">
+        <div class="skill-bar-wrap">
+          <div class="skill-label-row"><span>HTML5 / CSS3</span><span>95%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="95"></div></div>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-label-row"><span>JavaScript / jQuery</span><span>80%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="80"></div></div>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-label-row"><span>React.js</span><span>50%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="50"></div></div>
+        </div>
+
+        <div class="skill-bar-wrap">
+          <div class="skill-label-row"><span>Python</span><span>65%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="65"></div></div>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-label-row"><span>SQL</span><span>75%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="75"></div></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Langues -->
+
+    <div id="container">
+      <h2>Langues</h2>
+      <div id="skills-content">
+        <div class="skill-bar-wrap">
+          <div class="skill-label-row"><span>Francais</span><span>75%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="75"></div></div>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-label-row"><span>Anglais</span><span>60%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="50"></div></div>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-label-row"><span>Arabe</span><span>95%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="95"></div></div>
+        </div>
+      </div>
+    </div>
+
+  </aside>
+
+  <section>
+    <div class="container">
+      <article id="about" class="reveal">
+        <h2>À Propos</h2>
+        <p>
+         Étudiante en deuxième année d’informatique, titulaire d’un baccalauréat en sciences mathématiques, je m’intéresse au développement web et à la programmation. 
+         J’ai acquis des bases en HTML, CSS, JavaScript, React, Node.js et bases de données, 
+         et je souhaite continuer à développer mes compétences à travers des projets pratiques.
+
+        </p>
+      </article>
+
+      <!-- Formation (accordion jQuery timeline) -->
+      <article id="formation" class="reveal">
+        <h2>Formation &amp; Diplômes</h2>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-header">
+              <div class="timeline-meta">
+                <strong>Parcours scolaire</strong>
+                <span>AIT OUADINAR KALAAT MGOUNA</span>
+              </div>
+              <span class="timeline-date">2012 – 2024</span>
+            </div>
+            <div class="timeline-body">
+              J’ai suivi mon parcours scolaire de l’enseignement primaire jusqu’au baccalauréat, où j’ai acquis des bases solides dans les différentes matières générales.
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-header">
+              <div class="timeline-meta">
+                <strong>Baccalauréat Général</strong>
+                <span> lycée Moulay  Baamrane, Kelaat M’Gouna</span>
+              </div>
+              <span class="timeline-date">2024</span>
+            </div>
+            <div class="timeline-body">
+              Titulaire d'un baccalauréat scientifique, spécialité sciences mathématiques A, 
+obtenu en 2024 avec la mention Assez bien. 
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-header">
+              <div class="timeline-meta">
+                <strong>Parcours universitaire</strong>
+                <span>Faculté des sciences Semlalia, univeristé Cadi Ayyad, MARRAKECH</span>
+              </div>
+              <span class="timeline-date">2024 – présent</span>
+            </div>
+            <div class="timeline-body">
+              Actuellement en deuxième année branche d’informatique, je poursuis une formation axée sur le développement logiciel et web. J’y étudie principalement la programmation orientée objet, les structures de données, les bases de données ainsi que le développement d’applications web. Cette formation me permet de renforcer mes compétences techniques et de réaliser des projets pratiques en programmation.
+            </div>
+          </div>
+
+
+        </div>
+      </article>
+
+      <!-- PROJETS (React) -->
+      <article id="projets" class="reveal">
+        <div id="react-projects"></div>
+      </article>
+
+        <article id="about" class="reveal">
+        <h2>Centres d'intérêt</h2>
+
+                 <p id="interets-content">
+        Lecture : Science-fiction, littérature scientifique, biographies.<br>
+        Technologie: Innovations technologiques, gadgets électroniques.<br>
+        Sport: Football.<br>
+        Intérêt pour la nature et l’environnement.
+      </p>
+
+
+      </article>
+
+      <!-- CONTACT (React) -->
+      <article id="contact" class="reveal">
+        <div id="react-contact"></div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <ul>
+    <li><span>© 2026 HASSAN AIT M'HAMED</span></li>
+  </ul>
+</footer>
+
+<script>
+$(function () {
+
+
+  /* Accordion aside (toggle) */
+  $("aside h2").click(function () {
+    var target = $(this).next("p, #skills-content, #soft-skills-content, #langues-content, #interets-content");
+    target.slideToggle(300);
+  });
+
+  /* Accordion timeline (formation) */
+  $(document).on("click", ".timeline-header", function () {
+    var item   = $(this).closest(".timeline-item");
+    var body   = item.find(".timeline-body");
+    var isOpen = item.hasClass("open");
+
+    $(".timeline-item.open .timeline-body").slideUp(260);
+    $(".timeline-item").removeClass("open");
+
+    if (!isOpen) {
+      body.slideDown(260);
+      item.addClass("open");
+    }
+  });
+
+  /* Soft tags — clic */
+  $(document).on("click", ".soft-tag", function () {
+    $(".soft-tag").removeClass("active");
+    $(this).addClass("active");
+    $("#soft-desc").text($(this).data("desc")).fadeIn(200);
+  });
+
+  /* Scroll reveal */
+  function checkReveal() {
+    $(".reveal").each(function () {
+      if ($(window).scrollTop() + $(window).height() > $(this).offset().top + 60) {
+        $(this).addClass("visible");
+      }
+    });
+  }
+  $(window).on("scroll", checkReveal);
+  checkReveal();
+
+  /* Barres de compétences — animation au scroll */
+  var barsAnimated = false;
+  $(window).on("scroll", function () {
+    if (barsAnimated) return;
+    if ($(window).scrollTop() + $(window).height() > $("#competences").offset().top + 80) {
+      barsAnimated = true;
+      $(".skill-fill").each(function () {
+        var pct = $(this).data("pct");
+        $(this).css("width", pct + "%");
+      });
+    }
+  });
+
+  /* Nav active */
+
+
+});
+</script>
+
+<script type="text/babel">
+const { useState } = React;
+
+/* ── Composant 1 : ProjectCard ── */
+function ProjectCard({ title, description, techs, github, demo }) {
+  return (
+    <div className="project-card">
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <div className="project-techs">
+        {techs.map(t => <span key={t} className="project-tech">{t}</span>)}
+      </div>
+      <div className="project-links">
+        {github && <a className="project-link" href={github} target="_blank" rel="noreferrer"> GitHub</a>}
+        {demo   && <a className="project-link" href={demo}   target="_blank" rel="noreferrer"> Démo</a>}
+      </div>
+    </div>
+  );
+}
+
+/* ── Composant 2 : ProjectsSection ── */
+function ProjectsSection() {
+  const projects = [
+    {
+      title: "FitZone club",
+      description: "FitZone Club est un site web moderne et responsive conçu pour une salle de sport marocaine. ",
+      techs: ["HTML5", "CSS3", "Java Script"],
+      github: "https://github.com/hassanaitmhamed/FitZone-Club ", demo: "https://hassanaitmhamed.github.io/FitZone-Club "
+    },
+    {
+      title: "Forest Runner",
+      description: "Forest Runner est un jeu 2D où le joueur contrôle un personnage qui court automatiquement dans une forêt et doit éviter les obstacles tout en collectant des pièces avant la fin du temps.",
+      techs: ["C++", "SFML 3.0.2"],
+      github: "#", demo: "#"
+    },
+  ];
+
+  const filters = [];
+
+  const [active, setActive] = useState("all");
+  const filtered = active === "all" ? projects : projects.filter(p => p.category === active);
+
+  return (
+    <div>
+      <h2 style={{ fontSize:"15px", color:"#2c3e50", textTransform:"uppercase",
+                   borderBottom:"2px solid #3498db", paddingBottom:"6px", marginBottom:"12px",
+                   letterSpacing:"0.05em" }}>
+        Projets &amp; Expériences
+      </h2>
+      <div className="filter-bar">
+        {filters.map(f => (
+          <button
+            key={f.key}
+            className={`filter-btn${active === f.key ? " active" : ""}`}
+            onClick={() => setActive(f.key)}
+          >{f.label}</button>
+        ))}
+      </div>
+      <div className="projects-grid">
+        {filtered.map(p => <ProjectCard key={p.title} {...p} />)}
+      </div>
+    </div>
+  );
+}
+
+/* ── Composant 3 : ContactForm ── */
+function ContactForm() {
+  const [fields, setFields] = useState({ nom: "", email: "", message: "" });
+  const [errors, setErrors] = useState({});
+  const [sent,   setSent  ] = useState(false);
+
+function validate() {
+    const e = {};
+
+    if (!fields.nom.trim())
+        e.nom = "Le nom est requis.";
+
+    if (!fields.email.trim())
+        e.email = "L'email est requis.";
+    else if (!/^[^\s@]+@gmail\.com$/.test(fields.email))
+        e.email = "Format invalide (ex : vous@gmail.com).";
+
+    if (!fields.message.trim())
+        e.message = "Le message est requis.";
+
+    return e;
+}
+  function handleChange(e) {
+    const { name, value } = e.target;
+    setFields(f => ({ ...f, [name]: value }));
+    if (errors[name]) setErrors(er => ({ ...er, [name]: "" }));
+  }
+
+  function handleSubmit() {
+    const e = validate();
+    if (Object.keys(e).length) { setErrors(e); return; }
+    setSent(true);
+  }
+
+  if (sent) {
+    return (
+      <div className="form-success">
+        Message envoyé ! Merci <strong>{fields.nom}</strong>, je vous répondrai bientôt.
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <h2 style={{ fontSize:"15px", color:"#2c3e50", textTransform:"uppercase",
+                   borderBottom:"2px solid #3498db", paddingBottom:"6px", marginBottom:"12px",
+                   letterSpacing:"0.05em" }}>
+        Me Contacter
+      </h2>
+      <div className="contact-form">
+        <div className="form-group">
+          <label>Nom complet : </label>
+          <input name="nom" placeholder="Votre nom" value={fields.nom}
+                 onChange={handleChange} className={errors.nom ? "field-error" : ""} />
+          <span className="form-error">{errors.nom || ""}</span>
+        </div>
+        <div className="form-group">
+          <label>Adresse email : </label>
+          <input name="email" type="email" placeholder="vous@gmail.com" value={fields.email}
+                 onChange={handleChange} className={errors.email ? "field-error" : ""} />
+          <span className="form-error">{errors.email || ""}</span>
+        </div>
+        <div className="form-group">
+          <label>Message : </label>
+          <textarea name="message" placeholder="Votre message..." value={fields.message}
+                    onChange={handleChange} className={errors.message ? "field-error" : ""} />
+          <span className="form-error">{errors.message || ""}</span>
+        </div>
+        <button className="btn-submit" onClick={handleSubmit}>Envoyer </button>
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("react-projects")).render(<ProjectsSection />);
+ReactDOM.createRoot(document.getElementById("react-contact")).render(<ContactForm />);
+</script>
+
+</body>
+</html>
