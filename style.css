@@ -1,6 +1,7 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
+      margin: 0;
       font-family: 'Roboto', Arial, sans-serif;
       font-size: 14px;
       color: #333;
@@ -13,7 +14,6 @@
       background: #39628a;
       color: white;
       padding: 28px 0 20px;
-      margin-top: 38px; /* nav height */
       cursor: pointer;
     }
 
